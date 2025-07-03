@@ -1,0 +1,45 @@
+/*Header*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(112, 140, 124);
+    position: fixed;
+    height: 55px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    }
+
+/*Left Section*/
+
+.left-section{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-left: 20px;
+}
+#portfolio-name{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Right Section*/
+
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

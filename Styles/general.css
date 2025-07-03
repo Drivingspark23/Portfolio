@@ -1,0 +1,17 @@
+body{
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px;
+    background-color: #ffe4c4;
+}
+div a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* List */
+ffe4c4, 7d7c78, 6f8d7c, ccbf98, 727c93
+#ffe4c4, #7d7c78, #6f8d7c, #ccbf98, #727c93
+0xffe4c4, 0x7d7c78, 0x6f8d7c, 0xccbf98, 0x727c93
