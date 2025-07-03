@@ -119,3 +119,66 @@ main{
 .close:active, .minimize:active{
     box-shadow: inset 2px 3px 5px rgba(0, 0, 0, 0.30) ;
 }
+
+/* Responsive layout for tablets and phones */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .window, .window1 {
+    width: 95vw;
+    height: auto;
+    max-height: 80vh;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .bar {
+    height: 24px;
+  }
+
+  .window-name {
+    font-size: 16px;
+    top: -14px;
+  }
+
+  .close, .minimize {
+    transform: scale(0.9);
+    top: -16px;
+  }
+
+  #cool-1 {
+    width: 100px;
+    height: auto;
+  }
+
+  .song-buttons button {
+    width: 25px;
+    height: 18px;
+  }
+
+  .content {
+    max-height: 60vh;
+    padding: 10px;
+  }
+}
+
+/* Super-small screens (phones under 480px) */
+@media (max-width: 480px) {
+  .window-name {
+    font-size: 14px;
+  }
+
+  .close, .minimize {
+    transform: scale(0.8);
+    right: auto;
+    left: 10px;
+  }
+
+  .song-buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
